@@ -1,16 +1,13 @@
-import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import React from "react";
-import Aseda from '../img/Aseda Micro.png'
 
 function Navbar() {
-    return (
-        <>
-        <div className="navbar">
-            {/* <HamburgerMenuIcon /> */}
-        </div>
-
-        </>
-    )
+  return (
+    <>
+      <div className="navbars">
+         <input type="text" placeholder="Search" className="search-bar" />
+      </div>
+    </>
+  );
 }
 
 export default Navbar;
