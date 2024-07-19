@@ -5,10 +5,11 @@ import { Link } from 'react-router-dom';
 
 function Account() {  
   return (
-    <Link to="/account-preview">
+   
       <div className='account'>
               <section id="container-enteries">
               <div class="grid-box">
+  <Link to="/account-preview">              
                 <div class="grid">
                   <img src={User} alt="profile picture" />
                   <small><h3>CUSTOMER DETAILS</h3>
@@ -16,6 +17,8 @@ function Account() {
                   <p>Acount Number: **********12</p>
                 </small>
                 </div>
+  </Link>               
+  <Link to="/account-preview">
                 <div class="grid">
                   <img src={User} alt="profile picture" />
                   <small><h3>CUSTOMER DETAILS</h3>
@@ -23,6 +26,8 @@ function Account() {
                   <p>Acount Number: **********12</p>
                 </small>
                 </div>
+  </Link>  
+  <Link to="/account-preview">
                 <div class="grid">
                   <img src={User} alt="profile picture" />
                   <small><h3>CUSTOMER DETAILS</h3>
@@ -30,6 +35,8 @@ function Account() {
                   <p>Acount Number: **********12</p>
                 </small>
                 </div>
+  </Link> 
+  <Link to="/account-preview">
                 <div class="grid">
                   <img src={User} alt="profile picture" />
                   <small><h3>CUSTOMER DETAILS</h3>
@@ -37,6 +44,8 @@ function Account() {
                   <p>Acount Number: **********12</p>
                 </small>
                 </div>
+  </Link> 
+  <Link to="/account-preview">
                 <div class="grid">
                   <img src={User} alt="profile picture" />
                   <small><h3>CUSTOMER DETAILS</h3>
@@ -44,6 +53,8 @@ function Account() {
                   <p>Acount Number: **********12</p>
                 </small>
                 </div>
+  </Link> 
+  <Link to="/account-preview">
                 <div class="grid">
                   <img src={User} alt="profile picture" />
                   <small><h3>CUSTOMER DETAILS</h3>
@@ -51,6 +62,8 @@ function Account() {
                   <p>Acount Number: **********12</p>
                 </small>
                 </div>
+  </Link> 
+  <Link to="/account-preview">
                 <div class="grid">
                   <img src={User} alt="profile picture" />
                   <small><h3>CUSTOMER DETAILS</h3>
@@ -58,6 +71,8 @@ function Account() {
                   <p>Acount Number: **********12</p>
                 </small>
                 </div>
+  </Link> 
+  <Link to="/account-preview">
                 <div class="grid">
                   <img src={User} alt="profile picture" />
                   <small><h3>CUSTOMER DETAILS</h3>
@@ -65,11 +80,11 @@ function Account() {
                   <p>Acount Number: **********12</p>
                 </small>
                 </div>
+  </Link>               
               </div>
               </section>
             
       </div>
-      </Link>  
   )
 }
 

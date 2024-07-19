@@ -6,16 +6,15 @@ import { Link } from 'react-router-dom';
 
 function AccountPreview() {
   return (
-    <Link to="/">
+    
         <div className='account-preview'>
           <fieldset>
             <legend>
-              {/* <img src={Aseda} alt="banking logo" /> */}
             </legend>
             <div className="container">
               <h2>Account Information</h2>
+              <h3>ASEDA MICROFINANCE</h3>
               <div className="user-image">
-                <h3>ASEDA MICROFINANCE</h3>
                 <img src={User} alt="user profile" />
               </div>
               <p>User Name:</p>
@@ -32,12 +31,22 @@ function AccountPreview() {
                 <div className="state">
                   <h2>Financial Position</h2>
                   <p>As at 3/12/2024</p>
-                  <hr />
+                  <hr /><hr />
                 </div>
                 <div style={{ borderRadius: '15px' }} className="bank-details">
-                  <div className="cash">Cash at Bank</div>
+                  <div className="cash">
+                    
+                      <li>Cash at Bank</li>
+                      <li>Cash in Hand</li>
+                      <li>Deposit</li>
+                    
+                  </div>
                   <hr />
-                  <div className="amount">GH 100,100</div>
+                  <div className="amount">
+                    <li>Ghc 100,000</li>
+                    <li>Ghc 1000</li>
+                    <li>Ghc 2000</li>
+                  </div>
                 </div>
                 <div style={{ border: '1px solid black', borderRadius: '15px' }} className="accounts">
                   <div className="bank1">
@@ -51,7 +60,7 @@ function AccountPreview() {
                   </div>
                 </div>
               </div>
-              <div style={{ border: '1px solid black', borderRadius: '15px' }} className="income">
+              <div style={{ border: '1px    solid black', borderRadius: '15px' }} className="income">
                 <div className="income-in">
                   <div>Income</div>
                   <div>GH 4,000</div>
@@ -59,7 +68,7 @@ function AccountPreview() {
                 <hr />
                 <div>
                   <ol>
-                    <li>Foreign Exchange:</li>
+                    <li>Foreign Exchange</li>
                     <li>Inventory</li>
                     <li>Interest Received</li>
                     <li>Sales</li>
@@ -81,7 +90,7 @@ function AccountPreview() {
                   <li>Machinery</li>
                 </ol>
               </div>
-              <div style={{ border: '1px solid black' }} className="expenses">
+              <div className="expenses">
                 <div className="oweings">
                   <div>Less Expenses</div>
                   <div>GH 0.00</div>
@@ -105,7 +114,7 @@ function AccountPreview() {
             </footer>
           </fieldset>
         </div>
-      </Link>
+     
   );
 }
 
