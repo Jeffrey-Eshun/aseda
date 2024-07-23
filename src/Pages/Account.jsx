@@ -1,71 +1,90 @@
 import React from 'react'
 import User from '../img/userprofile.jpeg'
+import { Link } from 'react-router-dom';
 
-function Account() {
+
+function Account() {  
   return (
-    <div className='account'>
-            <section id="container-enteries">
-            <div class="grid-box">
-              <div class="grid">
-                <img src={User} alt="profile picture" />
-                <small><h3>CUSTOMER DETAILS</h3>
-                <p>batch code:</p>
-                <p>Acount Number: **********12</p>
-              </small>
+   
+      <div className='account'>
+              <section id="container-enteries">
+              <div class="grid-box">
+  <Link to="/account-preview">              
+                <div class="grid">
+                  <img src={User} alt="profile picture" />
+                  <small><h3>CUSTOMER DETAILS</h3>
+                  <p>batch code:</p>
+                  <p>Acount Number: **********12</p>
+                </small>
+                </div>
+  </Link>               
+  <Link to="/account-preview">
+                <div class="grid">
+                  <img src={User} alt="profile picture" />
+                  <small><h3>CUSTOMER DETAILS</h3>
+                  <p>batch code:</p>
+                  <p>Acount Number: **********12</p>
+                </small>
+                </div>
+  </Link>  
+  <Link to="/account-preview">
+                <div class="grid">
+                  <img src={User} alt="profile picture" />
+                  <small><h3>CUSTOMER DETAILS</h3>
+                  <p>batch code:</p>
+                  <p>Acount Number: **********12</p>
+                </small>
+                </div>
+  </Link> 
+  <Link to="/account-preview">
+                <div class="grid">
+                  <img src={User} alt="profile picture" />
+                  <small><h3>CUSTOMER DETAILS</h3>
+                  <p>batch code:</p>
+                  <p>Acount Number: **********12</p>
+                </small>
+                </div>
+  </Link> 
+  <Link to="/account-preview">
+                <div class="grid">
+                  <img src={User} alt="profile picture" />
+                  <small><h3>CUSTOMER DETAILS</h3>
+                  <p>batch code:</p>
+                  <p>Acount Number: **********12</p>
+                </small>
+                </div>
+  </Link> 
+  <Link to="/account-preview">
+                <div class="grid">
+                  <img src={User} alt="profile picture" />
+                  <small><h3>CUSTOMER DETAILS</h3>
+                  <p>batch code:</p>
+                  <p>Acount Number: **********12</p>
+                </small>
+                </div>
+  </Link> 
+  <Link to="/account-preview">
+                <div class="grid">
+                  <img src={User} alt="profile picture" />
+                  <small><h3>CUSTOMER DETAILS</h3>
+                  <p>batch code:</p>
+                  <p>Acount Number: **********12</p>
+                </small>
+                </div>
+  </Link> 
+  <Link to="/account-preview">
+                <div class="grid">
+                  <img src={User} alt="profile picture" />
+                  <small><h3>CUSTOMER DETAILS</h3>
+                  <p>batch code:</p>
+                  <p>Acount Number: **********12</p>
+                </small>
+                </div>
+  </Link>               
               </div>
-              <div class="grid">
-                <img src={User} alt="profile picture" />
-                <small><h3>CUSTOMER DETAILS</h3>
-                <p>batch code:</p>
-                <p>Acount Number: **********12</p>
-              </small>
-              </div>
-              <div class="grid">
-                <img src={User} alt="profile picture" />
-                <small><h3>CUSTOMER DETAILS</h3>
-                <p>batch code:</p>
-                <p>Acount Number: **********12</p>
-              </small>
-              </div>
-              <div class="grid">
-                <img src={User} alt="profile picture" />
-                <small><h3>CUSTOMER DETAILS</h3>
-                <p>batch code:</p>
-                <p>Acount Number: **********12</p>
-              </small>
-              </div>
-              <div class="grid">
-                <img src={User} alt="profile picture" />
-                <small><h3>CUSTOMER DETAILS</h3>
-                <p>batch code:</p>
-                <p>Acount Number: **********12</p>
-              </small>
-              </div>
-              <div class="grid">
-                <img src={User} alt="profile picture" />
-                <small><h3>CUSTOMER DETAILS</h3>
-                <p>batch code:</p>
-                <p>Acount Number: **********12</p>
-              </small>
-              </div>
-              <div class="grid">
-                <img src={User} alt="profile picture" />
-                <small><h3>CUSTOMER DETAILS</h3>
-                <p>batch code:</p>
-                <p>Acount Number: **********12</p>
-              </small>
-              </div>
-              <div class="grid">
-                <img src={User} alt="profile picture" />
-                <small><h3>CUSTOMER DETAILS</h3>
-                <p>batch code:</p>
-                <p>Acount Number: **********12</p>
-              </small>
-              </div>
-            </div>
-            </section>
-
-    </div>
+              </section>
+            
+      </div>
   )
 }
 
